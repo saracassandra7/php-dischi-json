@@ -1,5 +1,31 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+  background-color: #1d2d3c;
+  color: white;
+}
+
+.my-container{
+  width: 100%;
+}
+
+header{
+  background-color: #06131f;
+  height: 60px;
+}
+
+header i{
+  color: lime;
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+.my-card{
+  background-color: #06131f;
+}
+
+.image{
+  width: 180px;
+}
+
+.image img{
+  max-width: 100%;
 }
