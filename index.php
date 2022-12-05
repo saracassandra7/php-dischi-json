@@ -1,7 +1,3 @@
-<?php 
-include 'server.php'
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +14,9 @@ include 'server.php'
 </head>
 <body>
   <div class="container" id="app">
+    <ul>
+      <li v-for="(disk,index) in disks" :key="index" >{{disk.title}}, {{disk.author}}</li>
+    </ul>
 
   </div>
   
