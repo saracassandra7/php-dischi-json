@@ -39,13 +39,7 @@
             </div>
           </div>
         </div>
-       
-      
-      <!-- <ul>
-         <li v-for="(disk,index) in disks" :key="index" >{{disk.title}}, {{disk.author}}</li>
-       </ul> -->
       </div>
-
     </main>
   </div>
   
